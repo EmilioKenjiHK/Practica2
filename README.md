@@ -1,6 +1,7 @@
-Practica 2: Creación de página web en HTML Puro
+**__Practica 2: Creación de página web en HTML Puro__**
 
-Emilio Kenji Hernández Kuramata
+__Emilio Kenji Hernández Kuramata__
+
 Compañia: Iberdrola
 
 **Enunciado**
@@ -38,8 +39,8 @@ Mi site contiene lo siguiente:
 2) Párrafos (Todas las ventanas)
 3) Tablas (1 en Servicio.html)
 4) Multimedia 
-  4.1) Imágenes (Todas menos Cuestionario.html)
-  4.2) Links (Todas menos Cuestionario.html)
+  - Imágenes (Todas menos Cuestionario.html)
+  - Links (Todas menos Cuestionario.html)
 5) Formularios Web (Cuestionario.html)
 
 
@@ -48,8 +49,8 @@ Mi site contiene lo siguiente:
 He añadido esto de extra a mi site:
 
 1) Multimedia
-  1.1) Videos (Principal.html contiene un .mp4)
-  1.2) Links mediante Iconos (Redes Sociales en Principal.html y Cuestionario.html)
+  - Videos (Principal.html contiene un .mp4)
+  - Links mediante Iconos (Redes Sociales en Principal.html y Cuestionario.html)
 2) IFrames (Principal.html para el video youtube y Tarifas.html para el web)
 3) Formatear el contenido mediante márgenes y colores (Todas las ventanas)
 4) Utilizar itálica, negrita y subrayar texto (principalmente en Principal.html) 
