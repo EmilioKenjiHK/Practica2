@@ -4,22 +4,34 @@
         Servicios que ofrece Iberdrola y donde
     -->
     <head>
-        <meta http-equiv=”Content-Type” content=”text/html; charset=UTF-8″/>
+        <meta http-equiv=”Content-Type” content="text/html"; charset="UTF-8"/>
+        <title>IBERDROLA: Servicios</title>
         <style>
             #myBody{
                 margin: 10px 50px 10px 50px ;
             }
 
+            #capaImagen{
+                position:absolute; z-index:1;
+            }
+
+            #capaTitulo{
+                position:relative; z-index:0;
+            }
+
             h1 {text-align:center;}
 
             table,th,td {border: 1px solid black; border-collapse: collapse; text-align: center; background-color: white;}
+
         </style>
     </head>
     <body id = "myBody" style = "background-color: aliceblue;">
 
-        </p><img src = "Recursos/Logo.png" style="height:50px;width:100px;" align = "left">
+        <div id = "capaImagen"></p><img src = "Recursos/Logo.png" style="height:50px;width:100px;" align = "left"></div>
 
-        <h1>Servicios Disponibles</h1>
+        <div id = "capaTitulo"><h1>Servicios Disponibles</h1></div>
+
+        <br>
 
         <p>Iberdrola innova el uso de renovables para la vida diaria de cualquiera persona. Actualmente operamos en estas zonas:
         </p>

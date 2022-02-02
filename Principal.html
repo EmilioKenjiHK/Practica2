@@ -6,10 +6,19 @@
         MARGENES + COLORES
     -->
     <head>
-        <meta http-equiv=”Content-Type” content=”text/html; charset=UTF-8″/>
+        <meta http-equiv=”Content-Type” content="text/html"; charset="UTF-8"/>
+        <title>IBERDROLA: Página Principal</title>
         <style>
             #myBody{
                 margin: 10px 50px 10px 50px ;
+            }
+
+            #capaImagen{
+                position:absolute; z-index:1;
+            }
+
+            #capaTitulo{
+                position:relative; z-index:0;
             }
 
             h1 {text-align:center;}
@@ -18,11 +27,14 @@
     </head>
 
     <body id = "myBody" style = "background-color: aliceblue;">
+        
+        <div id = "capaImagen"><img src = "Recursos/Logo.png" style="height:50px;width:100px;" align = "left"></div>
+         
 
-        <img src = "Recursos/Logo.png" style="height:50px;width:100px;" align = "left">
-
-        <h1>Bienvenidos a Iberdrola: Lider en renovables!</h1>
-        <h2><u>Aquí encontrará todo sobre Iberdrola</u></h2>
+        <div id = "capaTitulo">
+            <h1>Bienvenidos a Iberdrola: Lider en renovables!</h1>
+            <h2><u>Aquí encontrará todo sobre Iberdrola</u></h2>
+        </div>
         <br>
 
         <p>Ahora mismo este web está en versión <b>1.0</b> <br>
@@ -80,7 +92,6 @@
                     <input type = "image" style = "margin:10px" src = "Recursos/Twitter.png" alt = "submit" width = "50px" height = "50px" formaction="https://twitter.com/iberdrola">
                     <input type = "image" style = "margin:10px" src = "Recursos/Linkedin.png" alt = "submit" width = "100px" height = "50px" formaction="https://www.linkedin.com/company/iberdrola/">
                     <input type = "image" style = "margin:10px" src = "Recursos/Youtube.png" alt = "submit" width = "50px" height = "50px" formaction="https://www.youtube.com/c/iberdrola">
-
                 </p>
             </form>
         </footer>

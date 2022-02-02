@@ -4,10 +4,19 @@
         Las tarifas para el servicio de luz 
     -->
     <head>
-        <meta http-equiv=”Content-Type” content=”text/html; charset=UTF-8″/>
+        <meta http-equiv=”Content-Type” content="text/html"; charset="UTF-8"/>
+        <title>IBERDROLA: Tarifas</title>
         <style>
             #myBody{
                 margin: 10px 50px 10px 50px ;
+            }
+
+            #capaImagen{
+                position:absolute; z-index:1;
+            }
+
+            #capaTitulo{
+                position:relative; z-index:0;
             }
 
             h1 {text-align:center;}
@@ -15,9 +24,9 @@
     </head>
     <body id = "myBody" style = "background-color: aliceblue;">
 
-        <img src = "Recursos/Logo.png" style="height:50px;width:100px;" align = "left">
+        <div id = "capaImagen"><img src = "Recursos/Logo.png" style="height:50px;width:100px;" align = "left"></div>
 
-        <h1>Tarifas de Luz</h1>
+        <div id = "capaTitulo"><h1>Tarifas de Luz</h1></div>
 
         <p>Aquí puedes ver el todos los planes posibles que ofrece Iberdrola:</p>
 
