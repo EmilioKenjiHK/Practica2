@@ -85,12 +85,36 @@ He añadido esto de extra a mi site:
 
 1) Multimedia
 
-	- Videos (Principal.html contiene un .mp4)
+	- Videos (index.html contiene un .mp4)
 
-	- Links mediante Iconos (Redes Sociales en Principal.html y Cuestionario.html)
+	- Links mediante Iconos (Redes Sociales en index.html y Cuestionario.html)
 
-2) IFrames (Principal.html para el video youtube y Tarifas.html para el web)
+2) IFrames (index.html para el video youtube y Tarifas.html para el web)
 
 3) Formatear el contenido mediante márgenes y colores (Todas las ventanas)
 
-4) Utilizar itálica, negrita y subrayar texto (principalmente en Principal.html)
+4) Utilizar itálica, negrita y subrayar texto (principalmente en index.html)
+
+### Pasos recomendados para comprobar el funcionamiento
+<ins>- **index.html**</ins>
+1) Comprobar que ambos videos funcionan (youtube y mp4).
+2) Click los links del texto (salvo "cuestionario") para comprobar que crea un nuevo tab con el link correcto.
+3) Ctrl + Click los iconos de redes sociales para comprobar que llevan al sitio correcto correspondiente.
+4) Pulsar los botones + el link "cuestionario" para comprobar que llevan a las otras páginas interiores.
+
+<ins>- **Historia.html**</ins>
+1) Comprobar que el link funciona.
+2) Comprobar que el botón "Volver Atras" vuelve a index.html.
+
+<ins>- **Servicios.html**</ins>
+1) Comprobar que los links funcionan.
+2) Comprobar que el botón "Volver Atras" vuelve a index.html.
+
+<ins>- **Tarifas.html**</ins>
+1) Comprobar que el iframe muestra una página web.
+2) Comprobar que el botón "Volver Atras" vuelve a index.html
+
+<ins>- **Cuestionario.html**</ins>
+1) Comprobar que se muestra un texto de error si dejas algún campo de texto vacio (y que se borra al rellenar dicho campo).
+2) Comprobar que ocurre un popup al pulsar el icono del correo
+3) Comprobar que el botón "Volver Atras" vuelve a index.html
